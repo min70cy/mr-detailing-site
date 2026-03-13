@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
- export const metadata = {
+
   title: "MR Detailing",
   description: "Premium car detailing in the Ottawa area. Interior and exterior detailing, monthly maintenance, and high-end vehicle care.",
 };
