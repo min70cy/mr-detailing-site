@@ -16,6 +16,21 @@ export const metadata: Metadata = {
 
   title: "MR Detailing",
   description: "Premium car detailing in the Ottawa area. Interior and exterior detailing, monthly maintenance, and high-end vehicle care.",
+openGraph: {
+    title: "MR Detailing",
+    description:
+      "Professional interior and exterior car detailing in the Ottawa area.",
+    url: "https://www.mrdetailing.store",
+    siteName: "MR Detailing",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
