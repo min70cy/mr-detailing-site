@@ -69,40 +69,70 @@ export default function MRDetailingWebsite() {
       ],
     },
     {
-      name: "Platinum",
-      price: "$499",
-      description: "Ultimate full-service detail with deep interior restoration and exterior paint correction.",
-      badge: "Premium",
+      name: "Interior Only",
+      price: "$150",
+      description: "full-service detail with deep interior restoration.",
+      badge: "",
       features: [
-        "Full interior vacuum",
-        "Seat & carpet shampoo / extraction",
-        "Steam cleaning of plastics & crevices",
-        "Leather cleaning + conditioning (if applicable)",
-        "Interior UV protectant dressing",
-        "Door jamb cleaning",
-        "Interior window cleaning",
-        "Full hand wash + foam bath",
-        "Wheel & rim deep clean",
-        "Tire shine",
-        "Clay bar treatment (removes contaminants)",
-        "1-step paint correction (light scratch/swirl removal)",
-        "Ceramic spray sealant (3–6 month protection)",
-        "Exterior trim restoration",
-        "Streak-free window cleaning",
-        "Engine bay cleaning",
-        "Odor elimination treatment",
-        "Headlight restoration",
+       "Interior air blow up",
+        "Complete interior vacuum",
+        "Stains (spot treatment)",
+        "Leather treatment",
+        "Clean & protect plastic",
+        "Windows & mirrors",
+        "Detail floor mats & shine",
+        "Detail trunk"
       ],
     },
     {
       name: "Monthly",
-      price: "$70",
+      price: "$99",
       description: "Includes everything in the Bronze package to keep your car looking clean and shiny all season long with a monthly detail.",
       badge: "",
       features: [
         "Everything included in the Bronze package",
         "Monthly maintenance detail",
         "Keeps your car clean and shiny all season"
+      ],
+    },
+        {
+      name: "3 Year Ceramic coating Package",
+      price: "$500",
+      description: "Entry-level ceramic coating for added shine and short-term protection.",
+      badge: "",
+      features: [
+        "Full exterior wash",
+        "Surface prep",
+        "Clay bar treatment",
+        "Ceramic coating (5 Years)",
+        "Paint correction (Step one Polish)",
+        "Gloss finish"
+      ],
+    },
+    {
+      name: "5 Year Ceramic coating Package",
+      price: "$750",
+      description: "Enhanced ceramic protection with longer durability and deeper gloss.",
+      badge: "Popular",
+      features: [
+        "Full exterior wash",
+        "Clay bar treatment",
+        "Paint correction (Step two Polish)",
+        "Ceramic coating (5 Years)",
+        "Deep gloss finish"
+      ],
+    },
+    {
+      name: "8 Year Ceramic coating Package",
+      price: "$1099",
+      description: "Premium ceramic coating with maximum protection and long-lasting shine.",
+      badge: "Premium",
+      features: [
+        "Full exterior prep",
+        "Full paint correction",
+        "Multi-layer ceramic coating (8 Years)",
+        "Extreme gloss & protection"
+        
       ],
     },
   ];
